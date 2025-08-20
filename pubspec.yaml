@@ -1,7 +1,10 @@
 name: rounded_scaffold_body
-description: "A new Flutter package project."
+description: "A customizable Flutter widget that provides a scaffold body with top rounded corners, background color, and shadow effects."
 version: 0.0.2
-homepage:
+homepage: https://github.com/GenieCoderSrc/rounded_scaffold_body
+repository: https://github.com/GenieCoderSrc/rounded_scaffold_body
+issue_tracker: https://github.com/GenieCoderSrc/rounded_scaffold_body/issues
+
 
 environment:
   sdk: ^3.9.0
@@ -22,6 +25,8 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
+example:
+  path: example
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

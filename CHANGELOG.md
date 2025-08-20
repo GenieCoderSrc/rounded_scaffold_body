@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-* Initial release of rounded_scaffold_body.
-* Introduced RoundedScaffoldBody widget to create a container with top rounded corners.
-* Support for customizable background color, padding, shadow color, spread radius, blur radius, and offset.
-* Default styling if customization is not provided.
+- Initial release of `rounded_scaffold_body`.
+- Introduced `RoundedScaffoldBody` widget to create a container with top rounded corners.
+- Support for customizable background color, padding, shadow color, spread radius, blur radius, and offset.
+- Default styling if customization is not provided.
