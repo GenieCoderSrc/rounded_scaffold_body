@@ -42,8 +42,8 @@ class RoundedScaffoldBody extends StatelessWidget {
                 shadowColor ??
                 Theme.of(
                   context,
-                ).appBarTheme.backgroundColor?.withOpacity(0.5) ??
-                Colors.grey.withOpacity(0.2),
+                ).appBarTheme.backgroundColor?.withAlpha((0.5 * 255).round()) ??
+                Colors.grey.withAlpha((0.2 * 255).round()),
             spreadRadius: shadowSpreadRadius ?? 5,
             blurRadius: blurRadius ?? 7,
             offset: offset ?? const Offset(0, 3),
