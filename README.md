@@ -16,6 +16,8 @@ This widget, `RoundedScaffoldBody`, allows you to easily add a customizable cont
 Add the following to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   rounded_scaffold_body: <latest_version>
 ```
