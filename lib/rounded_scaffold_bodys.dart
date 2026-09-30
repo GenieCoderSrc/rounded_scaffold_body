@@ -27,8 +27,7 @@ class RoundedScaffoldBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding:
-          padding ??
+      padding: padding ??
           EdgeInsets.only(top: topPadding ?? 4, right: 16.0, left: 16.0),
       decoration: BoxDecoration(
         color: bgColor ?? Theme.of(context).scaffoldBackgroundColor,
@@ -38,8 +37,7 @@ class RoundedScaffoldBody extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color:
-                shadowColor ??
+            color: shadowColor ??
                 Theme.of(
                   context,
                 ).appBarTheme.backgroundColor?.withAlpha((0.5 * 255).round()) ??
